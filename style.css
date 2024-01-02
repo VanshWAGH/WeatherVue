@@ -1,0 +1,62 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.container {
+  width: 700px;
+  /* background-color: #fff; */
+  margin: 300px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-input {
+  /* background-color: orange; */
+  text-align: center;
+}
+
+#city-input {
+  width: 60%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 2px solid black;
+  margin-right: 10px;
+}
+
+#search-button {
+  width: 20%;
+  padding: 10px;
+  background-color: rgb(124, 198, 12);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.output-info {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#city-name {
+  color: rgb(94, 92, 92);
+  font-size: 30px;
+}
+
+#city-time {
+  margin-top: 20px;
+  font-size: 20px;
+  color: rgb(49, 43, 43);
+}
+#city-temp {
+  margin-top: 10px;
+  font-size: larger;
+  color: rgb(124, 198, 12);
+}
